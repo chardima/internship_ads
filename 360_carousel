@@ -393,7 +393,6 @@ http://cdn.playbuzz.com/cdn/154cb38e-55e3-4294-bffe-6906b6a41a6b/46f8a80e-3a90-4
      // Concatenates image URLs into string for processing
      function buildImageString() {
         imgString = currentData[0] + "," + currentData[1] + "," + currentData[2];
-        alert(imgString);
         return imgString;
         
      }
